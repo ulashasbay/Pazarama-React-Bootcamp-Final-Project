@@ -54,8 +54,8 @@ function AdminApplicationList() {
     <>
       <div className="select-dropdown">
         <select defaultValue="Bekliyor" onChange={handleSelectChange}>
-          <option value="Yanıtlandı">Yanıtlanan</option>
-          <option value="Bekliyor">Yanıtlanmayan</option>
+          <option value="Yanıtlandı">Yanıtlanmış</option>
+          <option value="Bekliyor">Yanıtlanmamış</option>
         </select>
       </div>
       <table className="table">
