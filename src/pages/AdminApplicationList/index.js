@@ -87,16 +87,16 @@ function AdminApplicationList() {
                   <td data-label="Başvuru No">{item.id}</td>
                   <td data-label="İşlemler">
                     <button
-                      className="table-delete-btn"
-                      onClick={() => deleteUserApplication(item.id)}
-                    >
-                      Sil
-                    </button>
-                    <button
                       className="table-view-btn"
                       onClick={() => getUserApplicationInfo(item.id)}
                     >
                       Görüntüle
+                    </button>
+                    <button
+                      className="table-delete-btn"
+                      onClick={() => deleteUserApplication(item.id)}
+                    >
+                      Sil
                     </button>
                   </td>
                 </tr>
