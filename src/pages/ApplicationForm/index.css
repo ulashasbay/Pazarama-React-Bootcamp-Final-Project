@@ -64,6 +64,8 @@
   border-radius: 4px;
   font-size: 16px;
   transition: all 0.2s ease-out;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .application-form-row textarea:focus {
@@ -73,6 +75,7 @@
 
 .application-form-row textarea::placeholder {
   color: #c8cddf;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .login-button {

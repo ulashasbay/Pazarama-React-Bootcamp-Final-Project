@@ -69,6 +69,8 @@
   border-radius: 4px;
   font-size: 16px;
   transition: all 0.2s ease-out;
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .admin-user-row textarea:focus {
@@ -78,6 +80,7 @@
 
 .admin-user-row textarea::placeholder {
   color: #c8cddf;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .accept-button {
