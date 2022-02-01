@@ -12,12 +12,12 @@
 }
 
 .table th {
-  background-color: #92c9e6;
+  background-color: #0137f3;
   color: #ffffff;
 }
 
 .table tbody tr:nth-child(even) {
-  background-color: #d1e8f5;
+  background-color: #f5f5f5;
 }
 
 .table-delete-btn {

@@ -21,11 +21,13 @@
   font-size: 42px;
   margin-bottom: 40px;
   color: #0137f3;
+  max-width: 520px;
 }
 
 .home-row p {
   font-size: 16px;
   margin-bottom: 30px;
+  max-width: 520px;
 }
 
 .content-wrapper {
@@ -40,7 +42,7 @@
   font-size: 18px;
   font-weight: 700;
   display: inline-block;
-  max-width: 500px;
+  max-width: 450px;
   margin-bottom: 24px;
   color: #fff;
   background-color: #0137f3;
@@ -102,5 +104,6 @@
 @media screen and (min-width: 100px) {
   .home-row {
     padding-top: 6rem;
+    margin: -40px auto;
   }
 }
