@@ -45,7 +45,7 @@ function Admin() {
             <Input
               name="username"
               type="text"
-              text="Kullanıcı Adı"
+              text="Kullanıcı Adı: kodluyoruz"
               placeholder="Kullanıcı Adı"
               onChange={handleChange}
               onBlur={handleBlur}
@@ -58,7 +58,7 @@ function Admin() {
             <Input
               name="password"
               type="password"
-              text="Şifre"
+              text="Şifre: bootcamp109"
               placeholder="Şifre"
               onChange={handleChange}
               onBlur={handleBlur}
